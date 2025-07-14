@@ -13,9 +13,8 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-<project.build.sourceEncoding>UTF-8project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8project.build.sourceEncoding>
     </properties>
- 
     <dependencies>
         <!-- JUnit for testing -->
         <dependency>
@@ -25,7 +24,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
- 
     <build>
         <plugins>
             <!-- Maven Compiler Plugin -->
