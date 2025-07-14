@@ -8,6 +8,6 @@ public class AppTest {
     public void testGreet() {
         App app = new App();
         String result = app.greet("Jenkins");
-        assertEquals("Hello, Jenkins!", result);
+        assertEquals("Welcome, Jenkins!", result); // Updated to match new greeting
     }
 }
